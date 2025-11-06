@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Mail, Github, Linkedin, Twitter, MapPin, Send, ChevronRight, Code2, Database, Brain, Server, Cloud, Wrench, Menu, X } from "lucide-react";
+import { Mail, Github, Linkedin, Twitter, MapPin, Send, Code2, Database, Brain, Server, Cloud, Wrench, Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -74,7 +74,11 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <a href="#" className="flex items-center gap-1 sm:gap-2 text-base sm:text-xl font-normal">
               <div className="w-8 h-8 sm:w-10 sm:h-10 rounded flex items-center justify-center border border-[cyan] bg-[rgba(0,255,255,0.1)]">
-                <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-[cyan]" />
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 sm:w-5 sm:h-5">
+                  <path d="M7 8L3 12L7 16" stroke="#00ffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M17 8L21 12L17 16" stroke="#00ffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M14 4L9.8589 19.4548" stroke="#00ffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
               <span className="text-[cyan] text-sm sm:text-base">Abdlrhman</span>
               <span className="text-[magenta] text-sm sm:text-base"> // </span>

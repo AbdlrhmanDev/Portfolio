@@ -11,6 +11,11 @@ const arimo = Arimo({
 export const metadata: Metadata = {
   title: "AbdlrhmanDev - Full Stack Developer",
   description: "Portfolio of AbdlrhmanDev - Building the future with cutting-edge technology and innovative solutions",
+  icons: {
+    icon: '/images/code-tech-dev-svgrepo-com.svg',
+    shortcut: '/images/code-tech-dev-svgrepo-com.svg',
+    apple: '/images/code-tech-dev-svgrepo-com.svg',
+  },
 };
 
 export default function RootLayout({
