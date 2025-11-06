@@ -16,6 +16,26 @@ export const metadata: Metadata = {
     shortcut: '/images/code-tech-dev-svgrepo-com.svg',
     apple: '/images/code-tech-dev-svgrepo-com.svg',
   },
+  openGraph: {
+    title: "AbdlrhmanDev - Full Stack Developer",
+    description: "Portfolio of AbdlrhmanDev - Building the future with cutting-edge technology and innovative solutions",
+    type: "website",
+    siteName: "AbdlrhmanDev Portfolio",
+    images: [
+      {
+        url: '/images/image.png',
+        width: 1200,
+        height: 630,
+        alt: "AbdlrhmanDev - Full Stack Developer Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AbdlrhmanDev - Full Stack Developer",
+    description: "Portfolio of AbdlrhmanDev - Building the future with cutting-edge technology and innovative solutions",
+    images: ['/images/image.png'],
+  },
 };
 
 export default function RootLayout({
